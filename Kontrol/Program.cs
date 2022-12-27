@@ -6,7 +6,7 @@
 		// [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 		// [“Russia”, “Denmark”, “Kazan”] → []
 
-        string[] array1 = new string[9] {"123", "23", "hello", "world", "res","1234", "1567", "-2", "Ufa"};
+string[] array1 = new string[9] {"123", "23", "hello", "world", "res","1234", "1567", "-2", "Ufa"};
 string[] array2 = new string[array1.Length];
 void ArrayCheck(string[] array1, string[] array2) // Проверка на количество символов 
 {
