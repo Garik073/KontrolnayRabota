@@ -5,3 +5,18 @@
 		// [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 		// [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 		// [“Russia”, “Denmark”, “Kazan”] → []
+
+        string[] array1 = new string[9] {"123", "23", "hello", "world", "res","1234", "1567", "-2", "Ufa"};
+string[] array2 = new string[array1.Length];
+void ArrayCheck(string[] array1, string[] array2) // Проверка на количество символов 
+{
+    int count = 0;
+    for (int i = 0; i < array1.Length; i++)
+    {
+    if(array1[i].Length <= 3)
+        {
+        array2[count] = array1[i];
+        count++;
+        }
+    }
+}
