@@ -20,3 +20,14 @@ void ArrayCheck(string[] array1, string[] array2) // Проверка на ко�
         }
     }
 }
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($" {array[i]} ");
+    }
+    Console.WriteLine();
+}
+ArrayCheck(array1, array2);
+Console.WriteLine("Все элеменнты массива где количество символов в строке <= 3");
+PrintArray(array2);
